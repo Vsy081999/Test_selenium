@@ -14,6 +14,7 @@ public class Dataprovider {
 	@Test(dataProvider = "logindata")
 	public void readtestdata(String username, String password) {
 		System.out.println(username + " " + password);
+		System.out.println(username + " " + password);
 	}
 
 	@DataProvider(name = "logindata")
